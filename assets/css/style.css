@@ -15,13 +15,13 @@ body {
   flex-direction: column;
   /* Generic project styler */
   color: #3a3a3a;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 /* Header */
 header {
   background-color: #ffffff;
-  padding: 0 1 rem;
+  padding: 0 1rem;
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -37,7 +37,7 @@ header a {
 }
 
 h1 {
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #252525;
@@ -75,7 +75,7 @@ nav {
 }
 
 #nav-toggle {
-    display: none
+    display: none;
 }
 
 .nav-toggle-label {
@@ -87,6 +87,7 @@ main {
   background-color: lightblue;
   /* Make main element take up the surplus space to push down footer */
   flex: 1 0 auto;
+  margin-top: 47px
 }
 
 /* Footer */
