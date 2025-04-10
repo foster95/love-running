@@ -87,7 +87,7 @@ main {
   background-color: lightblue;
   /* Make main element take up the surplus space to push down footer */
   flex: 1 0 auto;
-  margin-top: 47px
+  margin-top: 47px;
 }
 
 /* Footer */
@@ -130,3 +130,10 @@ footer {
         margin-top: 79px;
     }
  }
+
+ /* Media query: laptops and larger */
+ @media screen and (min-width: 992px) {
+      #menu a:hover {
+        border-bottom: 1px solid #3a3a3a; 
+      }
+}
